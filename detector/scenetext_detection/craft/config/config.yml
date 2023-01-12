@@ -1,0 +1,12 @@
+trained_model: /nfs_shared/STR_Data/graduate_project/SceneTextDetection/craft/weights/craft_mlt_25k.pth
+text_threshold: 0.5
+low_text: 0.40
+link_threshold: 0.40
+cuda: True
+canvas_size: 1280
+mag_ratio: 1.5
+poly: False
+show_time: False
+refine: True
+refiner_model: /nfs_shared/STR_Data/graduate_project/SceneTextDetection/craft/weights/craft_refiner_CTW1500.pth
+char_bbox: False

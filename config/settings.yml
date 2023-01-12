@@ -1,0 +1,14 @@
+settings:
+  model:
+    visual_place_recognition:
+      model_name: cosplace
+    object_detection:
+      model_name: yolov4-416
+      score_threshold: 0.5
+      nms_threshold: 0.5
+    scenetext_detection:
+      model_name: CRAFT
+      score_threshold: 0.5
+    scenetext_recognition:
+      model_name: deep-text-recognition
+
